@@ -1,6 +1,6 @@
 {
   "name": "robust-point-in-polygon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Exactly test if a point is inside, outside or on the boundary of a polygon",
   "main": "robust-pnp.js",
   "directories": {
