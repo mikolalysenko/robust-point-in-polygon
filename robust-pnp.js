@@ -17,7 +17,6 @@ function robustPointInPolygon(vs, point) {
       if(yj < y && y < yi) {
         var s = orient(a, b, point)
         if(s === 0) {
-          console.log('here1', a, b, point)
           return 0
         } else {
           inside ^= (0 < s)|0
@@ -38,7 +37,6 @@ function robustPointInPolygon(vs, point) {
       if(yi < y && y < yj) {
         var s = orient(a, b, point)
         if(s === 0) {
-          console.log('here2', a, b, point)
           return 0
         } else {
           inside ^= (s < 0)|0
