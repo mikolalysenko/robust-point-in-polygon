@@ -88,7 +88,6 @@ function robustPointInPolygon(vs, point) {
         i += 1
       }
       if(x0 <= x && x <= x1) {
-        console.log(x0, x, x1, y)
         return 0
       }
       var y1 = vs[(i+1)%n][1]
