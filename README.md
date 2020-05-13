@@ -11,7 +11,7 @@ var polygon = [ [ 1, 1 ], [ 1, 2 ], [ 2, 2 ], [ 2, 1 ] ]
 console.log(
   classifyPoint(polygon, [1.5, 1.5]),
   classifyPoint(polygon, [1, 2]),
-  classifyPoint(polygom, [100000, 10000]))
+  classifyPoint(polygon, [100000, 10000]))
 ```
 
 Output:
